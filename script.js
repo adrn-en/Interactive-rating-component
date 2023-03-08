@@ -34,6 +34,7 @@ document.addEventListener('click', (e) => {
 	if (!e.target.matches('button')) {
 		buttons.forEach((button) => {
 			button.classList.remove('focus')
+			rate = 0
 		})
 	}
 })
