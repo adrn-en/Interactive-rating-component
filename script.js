@@ -17,7 +17,7 @@ buttons.forEach((button) => {
 })
 
 submitBtn.addEventListener('click', () => {
-	if (rate === 0) {
+	if (!rate) {
 		return
 	}
 	selectedRate.innerText = rate
