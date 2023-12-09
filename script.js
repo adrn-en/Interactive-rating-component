@@ -17,9 +17,7 @@ buttons.forEach((button) => {
 })
 
 submitBtn.addEventListener('click', () => {
-	if (!rate) {
-		return
-	}
+	if (!rate) return
 	selectedRate.innerText = rate
 	sectionRate.style.display = 'none'
 	sectionTy.style.display = 'flex'
